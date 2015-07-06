@@ -30,6 +30,7 @@ iron:router@1.0.9
 iron:url@1.0.9
 jquery@1.11.3_2
 json@1.0.3
+juanmachicado:errors@1.0.0
 launch-screen@1.0.2
 livedata@1.0.13
 localstorage@1.0.3
@@ -41,6 +42,7 @@ minimongo@1.0.8
 mizzao:bootstrap-3@3.3.1_1
 mobile-status-bar@1.0.3
 mongo@1.1.0
+mongo-livedata@1.0.8
 npm-bcrypt@0.7.8_2
 observe-sequence@1.0.6
 ordered-dict@1.0.3

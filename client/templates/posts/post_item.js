@@ -4,4 +4,10 @@ Template.postItem.helpers({
 		a.href = this.url;
 		return a.hostname;
 	},
+	ownPost: function() {
+		return this.userId === Meteor.userId();
+	},
+	commentsCount: function() {
+		return Comments.find({postId: this._id}).count();
+	}
 });
